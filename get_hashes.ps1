@@ -1,0 +1,1 @@
+Get-ChildItem -Path c:\users\user\Desktop -Recurse -Filter *.exe | Get-FileHash | Export-Csv -Path $PSScriptRoot\FilesHash.csv -NoTypeInformation
